@@ -70,7 +70,7 @@ const AuthForm = ({type}: {type: FormType}) => {
   control={form.control}
   name="email"
   label="Email"
-  placeholder="Enter your email"
+  placeholder=" Your Email"
   type="email"
 />
 
@@ -78,7 +78,7 @@ const AuthForm = ({type}: {type: FormType}) => {
   control={form.control}
   name="password"
   label="Password"
-  placeholder="Enter your password"
+  placeholder="Your Password"
   type="password"
 />
 
