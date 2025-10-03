@@ -13,6 +13,7 @@ const Rootlayout = ({children}: {children: React.ReactNode}) => {
 
        
       </nav>
+      {children}
     </div>
   )
 }
