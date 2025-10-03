@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from "@/components/ui/button"
+import  Link  from 'next/link'
 
 
 const page = () => {
@@ -10,7 +11,9 @@ const page = () => {
           <h2>Get Interview Ready with AI Powered Practice & Feedback. </h2>
           <p className='text-lg'>Practice on Real Interview Questions & get Instant Feedback.</p>
           
-          <Button asChild className='btn-primary max-sm:w-full'></Button>
+          <Button asChild className='btn-primary max-sm:w-full'>
+            <Link href="/interview">Start an Interview</Link>
+          </Button>
 
         </div>
       </section>
