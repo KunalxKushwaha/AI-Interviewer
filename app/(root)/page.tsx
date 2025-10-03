@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from "@/components/ui/button"
 import  Link  from 'next/link'
+import Image from 'next/image'
 
 
 const page = () => {
@@ -16,6 +17,7 @@ const page = () => {
           </Button>
 
         </div>
+        <Image src="/robot.png" alt="Robot" width={400} height={400} className='max-sm:hidden' />
       </section>
     </>
   )
