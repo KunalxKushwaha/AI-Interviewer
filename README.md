@@ -1,7 +1,7 @@
 # HireVision🏢
 Your Personal AI Interviewer which takes your Interview on your selected Domain.<br>
 Provides Feedback based on your Interview and gives Scores on the Scale of 100.<br>
-Currently In Progress.. Will be completed very Soon.
+Currently In Progress.. Will be completed very Soon.<br>
 (Making the Interview Sections.)
 
 ## Made with 💖by Kunal Kushwaha
