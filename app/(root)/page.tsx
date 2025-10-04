@@ -25,7 +25,6 @@ const page = () => {
         <h2>Your Interview</h2>
         <div className='interviews-section'>
           <p>You haven&#39;t taken any Interviews yet.</p>
-
         </div>
       </section>
     </>
