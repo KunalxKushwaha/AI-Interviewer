@@ -4,4 +4,4 @@ Provides Feedback based on your Interview and gives Scores on the Scale of 100.
 Currently In Progress.. Will be completed very Soon.<br>
 (Making the Interview Sections)
 
-## Made with 💖by Kunal Kushwaha
+## Made with 💖by Kunal Kushwaha.
