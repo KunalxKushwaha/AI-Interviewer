@@ -2,6 +2,8 @@ import React from 'react'
 import dayjs from 'dayjs'
 import Image from 'next/image';
 import { getRandomInterviewCover } from '@/lib/utils';
+import { Button } from './ui/button';
+import Link from 'next/link';
 
 const InterviewCard = ({interviewId, userId, role, type, techstack, createdAt} : InterviewCardProps) => {
   const feedback = null as Feedback | null;
@@ -16,6 +18,36 @@ const InterviewCard = ({interviewId, userId, role, type, techstack, createdAt} :
           </div>
 
           <Image src={getRandomInterviewCover()} alt='Interview Cover image' width={90} height={90} className='rounded-full object-fit size-[90px]'/>
+
+          <h3 className='mt-5 capitalize'>{role} Interview</h3>
+
+          <div className='flex flex-row gap-5 mt-3'>
+            <div className='flex flex-row gap-2'>
+              <Image src="/calendar.svg" alt="Calendar Icon" width={22} height={22} />
+              <p className='text-sm text-light-300'>{formatedDate}</p>
+
+            </div>
+            <div className='flex flex-row gap-2 items-center'>
+              <Image src="/star.svg" alt="Star Icon" width={22} height={22} />
+              <p className='text-sm text-light-300'>{feedback ?.totalScore ||  "---"}/100</p>
+            </div>
+          </div>
+
+          <p className='line-clamp-2 mt-5'>
+            {feedback ?.finalAssessment || "You Haven't Taken any Interview yet. Take it right now to Improve your Skills."}
+          </p>
+
+        </div>
+
+        <div className='flex flex-row justify-between'>
+          <p>Tech Icons</p>
+          <Button className='btn-primary'>
+            <Link href={feedback ? `/interview/${interviewId}` : `/interview/${interviewId}`}>
+           { feedback ? "Check Feedback" : "View Interview" }
+            </Link>
+            </Button>
+          
+
         </div>
 
 
