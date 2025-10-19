@@ -5,7 +5,7 @@ Currently In Progress,  Will be completed very Soon.<br>
 Home Page Done.<br>
 Now, will continue with this by connecting the fireBase.<br>
 {After the Holidays🥳}<br>
-Till then Happy Diwali to you All...🪔<br>
+Till then Happy Diwali to you All..🪔<br>
 
 
 ## Made with 💖by Kunal Kushwaha
