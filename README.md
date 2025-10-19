@@ -5,6 +5,6 @@ Currently In Progress.. Will be completed very Soon.<br>
 (Interview Section Done)
 {Home Page yet to be Started}
 Start from adding Tech Icons.
-Papers Finished, Grinding will continued soon..
+Papers Finished, Grinding will continued soon.
 
 ## Made with 💖by Kunal Kushwaha
