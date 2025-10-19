@@ -3,7 +3,7 @@ Your Personal AI Interviewer which takes your Interview on your selected Domain.
 Provides Feedback based on your Interview and gives Scores on the Scale of 100. 
 Currently In Progress.. Will be completed very Soon.<br>
 Home Page Done.
-Now will continue with connecting the fireBase.
+Now, will continue with this by connecting the fireBase.
 
 
 ## Made with 💖by Kunal Kushwaha
