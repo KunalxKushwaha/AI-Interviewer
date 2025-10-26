@@ -5,4 +5,4 @@ Currently In Progress, Will be completed very Soon.<br>
 Connection with firebase done.<br>
 Now Adding some Functionality to the pages.<br>
 
-## Made with 💖by Kunal Kushwaha
+## Made with 💖by Kunal Kushwaha.
