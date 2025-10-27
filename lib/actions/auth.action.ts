@@ -12,7 +12,7 @@ export async function signUp(params: SignUpParams) {
         if(userRecord.exists) {
             return {
                 success: false,
-                message: 'User already exists'
+                message: 'User Already Exists.'
             }
         }
         
