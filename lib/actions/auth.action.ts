@@ -1,11 +1,13 @@
 'use server';
 
+import { db } from "@/firebase/admin";
 import { success } from "zod";
 
 export async function signUp(params: SignUpParams) {
     const {uid, name, email} = params;
 
     try {
+        const userRecord = await db.collection('users').doc(uid).get()
         
     } catch (error: any) {
         console.error('Error Creating a User', error);
