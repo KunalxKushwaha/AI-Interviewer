@@ -19,7 +19,7 @@ export async function signUp(params: SignUpParams) {
 
         return {
             success: false,
-            message: 'Could not create user'
+            message: 'Could not create a user'
         }
         
     }
