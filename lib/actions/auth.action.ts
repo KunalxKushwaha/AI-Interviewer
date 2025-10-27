@@ -48,10 +48,11 @@ export async function setSessionCookie(idToken: string) {
 
     const sessionCookie = await auth.createSessionCookie(idToken, {expiresIn: 60 * 60 * 24 * 7 * 1000});
 
-    cookieStore.set({
-        maxAge: one_week,
-        name: 'session',
-        value: sessionCookie,
-        httpOnly: true,
-    })
+     cookieStore.set("session", sessionCookie, {
+    maxAge: one_week,
+    httpOnly: true,
+    secure: process.env.NODE_ENV === "production",
+    path: "/",
+    sameSite: "lax",
+  });
 }
