@@ -56,6 +56,8 @@ export async function signIn(params: SignInParams) {
                 message: 'No User Found with this Email. Create an Account Instead.'
             }
         }
+
+        await setSessionCookie(idToken);
         
     } catch (e) {
         console.log(e);
