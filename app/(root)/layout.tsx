@@ -2,7 +2,8 @@ import Image from 'next/image'
 import  Link  from 'next/link'
 import React from 'react'
 
-const Rootlayout = ({children}: {children: React.ReactNode}) => {
+const Rootlayout = async ({children}: {children: React.ReactNode}) => {
+ 
   return (
     <div className='root-layout'>
       <nav>
